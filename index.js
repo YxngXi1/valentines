@@ -19,8 +19,10 @@ element.addEventListener("mousemove", function(){
 
     // The button movement section
     document.body.appendChild(element);
-    var xCoordinate = Math.random() * 1300;
-    var yCoordinate = Math.random() * 600;
+    var xCoordinate = Math.random() * (window.innerWidth - 300);
+    var yCoordinate = Math.random() * (window.innerHeight - 100);
+    // console.log(xCoordinate)
+    // console.log(yCoordinate)
     element.style.left = xCoordinate + "px";
     element.style.top = yCoordinate + "px";
 });
