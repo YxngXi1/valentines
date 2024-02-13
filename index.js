@@ -21,8 +21,6 @@ element.addEventListener("mousemove", function(){
     document.body.appendChild(element);
     var xCoordinate = Math.random() * 1300;
     var yCoordinate = Math.random() * 600;
-    // console.log(xCoordinate)
-    // console.log(yCoordinate)
     element.style.left = xCoordinate + "px";
     element.style.top = yCoordinate + "px";
 });
